@@ -215,7 +215,7 @@ parameters:
   nextSequenceParam:
     description: 'the sequence number following the largest sequence number (highest sequence number + 1) of all the Events, Condition, and Samples considered when collecting the results.'
     in: header
-    name: interval
+    name: nextSequence
     required: false
     type: integer
     minimum: 0
